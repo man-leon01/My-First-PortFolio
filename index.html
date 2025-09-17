@@ -24,27 +24,92 @@
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
+            <div class="nav-menu">
+                <ion-icon name="play" class="icon-menu"></ion-icon>
+                <ion-icon name="pause" class="icon-close"></ion-icon>
+            </div>
             <div>
                 <ul class="networks">
-                    <li><a href="#github">
+                    <li><a href="#github" title="GitHub">
                         <ion-icon name="logo-github"></ion-icon>
                         </a>
                     </li>
-                    <li><a href="#linkedin">
+                    <li><a href="#linkedin" title="LinkedIn">
                         <ion-icon name="logo-linkedin"></ion-icon>
                         </a>
                     </li>
-                    <li><a href="#twitter">
+                    <li><a href="#twitter" title="Twitter">
                         <ion-icon name="logo-twitter"></ion-icon>
                         </a>
                     </li>
                 </ul>
             </div>
         </nav>
-        <section id="hero"></section>
+        <section id="hero">
+            <div class="text-title">
+                <p>I'm a <span class="fullname">Adjavoe Komi Léon</span></p>
+                <h2 class="profession">Junior Web Developer</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, quod ex? Ipsam totam ratione, odio eum cupiditate ullam ipsum corrupti?</p>
+            </div>
+            <div class="available">
+                <a href="#contact"><div class="point-available avail"></div>Hire Me</a>
+                <a href="#projects">See My Work <ion-icon name="arrow-forward"></ion-icon></a>
+            </div>
+        </section>
     </header>
     
+    <main>
+        <section id="about">
+            <div class="about">
+                <h2>About Me</h2>
+            </div>
+            <div class="container">
+                <div class="right">
+                    <img src="/myImage.jpg" alt="Mon image">
+                </div>
+                <div class="left">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit sit totam quia, accusamus, labore delectus recusandae maiores quos error aliquid iusto. Praesentium, ut? Nisi fugit perferendis, quae, cumque asperiores quo est laboriosam esse consequatur distinctio delectus, harum ad officia ab tenetur eius facere beatae quibusdam corporis suscipit aperiam impedit velit repellendus eligendi. Voluptates, error aliquid autem dolores iste deserunt nesciunt libero excepturi officia corporis neque dolorem quam officiis aspernatur molestiae rerum nisi quae perferendis consectetur voluptas assumenda repellat adipisci. Consectetur blanditiis explicabo exercitationem repudiandae culpa provident consequuntur inventore esse laborum at mollitia quas, eaque perferendis suscipit omnis sit quaerat nam qui soluta, ex voluptate. In voluptates aliquam ipsum accusamus impedit.</p>
+                    <div class="download">
+                        <a href="#download_cv">Download CV</a>
+                        <button>Scroll down</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="projects">
+            <div class="projects">
+                <h2>Projects</h2>
+            </div>
+            <div class="container">
 
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="contact">
+                <h2>Contact Me</h2>
+            </div>
+            <div class="container">
+                <form action="">
+                    <div class="input-box">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" placeholder="Your full name" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" placeholder="Your email address" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="message">Your Message</label>
+                        <textarea name="message" id="message" cols="40" rows="5" placeholder="Write your message here..." required></textarea>
+                    </div>
+                    <div class="submit-box">
+                        <input type="submit" value="Send Message">
+                    </div>
+            </div>
+        </section>
+    </main>
+            
 
 
     <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>

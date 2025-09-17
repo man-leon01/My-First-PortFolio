@@ -1,0 +1,93 @@
+@import "./style.css";
+
+#about{
+    width: 100%;
+    height: 100vh;
+    background-color: #070707;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 1rem 3rem;
+    border-top: 1px solid #fff;
+}
+
+#about .about{
+    padding: 0;
+}
+#about .about h2{
+    font-size: 2.5rem;
+    font-weight: bold;
+    width: 19%;
+    margin: 0;
+    padding: 0;
+    border-right: 1.5rem solid var(--secondary-color);
+}
+#about .container{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    /* background-color: #ca0e0e; */
+    padding: 1rem 5rem;
+    gap: 1rem;
+}
+#about .right{
+    height: 70vh;
+    background-color: green;
+    width: 40%;
+}
+
+#about .right img{
+    width: 100%;
+    height: 100%;
+}
+
+#about .left{
+    color: var(--icon-border);
+    padding: 1.5rem 3rem 1.5rem 2rem;
+    width: 70%;
+    height: 70vh;
+    background-color: #271615;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    justify-content: space-between;
+}
+
+#about .left p{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-align: justify;
+}
+
+#about .left .download{
+    display: flex;
+    gap: 1.2rem;
+}
+#about .left .download a{
+    color: var(--secondary-color);
+    border: 1px solid var(--icon-border);
+    text-align: center;
+    padding: 0.5rem;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: #726d6d31;
+    color: #726d6dfd;
+    font-size: 1.1rem;
+}
+#about .left .download a:hover{
+    background-color: var(--secondary-color);
+    color: var(--white-color-secondary);
+    transition: 0.5s ease-in-out;
+}
+#about .left .download button{
+    border-radius: 10px;
+    padding: 0.5rem .8rem;
+    font-size: .9rem;
+    background-color: #726d6d31;
+    color: #726d6dfd;
+    transition: 0.5s ease-in-out;
+}
+#about .left .download button:hover{
+    transform: translateY(5px);
+}
